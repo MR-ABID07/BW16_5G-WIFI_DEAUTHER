@@ -149,7 +149,7 @@ void handleRoot(WiFiClient &client) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=0.8, minimal-ui">
     <meta name="theme-color" content="#36393E">
-    <title>RTL8720dn-Deauther</title>
+    <title>AB_5G-Deauther</title>
     <style>
     /* Base on Spacehuhn css file. Copyright (c) 2020 Spacehuhn Technologies: https://github.com/spacehuhntech/esp8266_deauther */
       body {
@@ -433,7 +433,7 @@ void handleRoot(WiFiClient &client) {
   </head>
   <body>
   <div class="container">
-    <h1 class="bold">RTL8720dn-Deauther</h1>
+    <h1 class="bold">AB_5G-Deauther</h1>
       <div class="right">
         <div class="button-container">
           <form method="post" action="/rescan">
@@ -447,14 +447,14 @@ void handleRoot(WiFiClient &client) {
       <form method="post" action="/deauth">
       <h2>Access Points: )" + String(scan_results.size()) + R"(</h2>
       <div class="centered">
-        <h3 class="bold">5 GHz networks</h3>  
+        <h3 class="bold">5 GHz Networks</h3>  
       </div>
         <table>
           <tr>
             <th>SSID</th>
             <th class='tdFixed'>CH</th>
-            <th>BSSID</th>
-            <th>RSSI</th>
+            <th>MAC</th>
+            <th>SIGNAL</th>
             <th class='tdFixed'></th>
             <th class='selectColumn'></th>
           </tr>
@@ -482,14 +482,14 @@ void handleRoot(WiFiClient &client) {
   response += R"(
         </table>
         <div class="centered">
-          <h3 class="bold">2.4 GHz networks</h3>  
+          <h3 class="bold">2.4 GHz Networks</h3>  
         </div>
           <table>
             <tr>
               <th>SSID</th>
               <th class='tdFixed'>CH</th>
-              <th>BSSID</th>
-              <th>RSSI</th>
+              <th>MAC</th>
+              <th>SIGNAL</th>
               <th class='tdFixed'></th>
               <th class='selectColumn'></th>
             </tr>
