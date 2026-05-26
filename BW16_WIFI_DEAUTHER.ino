@@ -26,8 +26,8 @@ typedef struct {
   uint8_t channel;
 } WiFiScanResult;
 
-char *ssid = "AB";
-char *pass = "deauther";
+char *ssid = "SAM";
+char *pass = "deauther.AB";
 
 int current_channel = 1;
 std::vector<WiFiScanResult> scan_results;
