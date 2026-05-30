@@ -2,6 +2,7 @@
  ## 📡 BW16_WIFI_DEAUTHER (RTL8720DN) Works Both For 2.4Ghz &amp; 5Ghz WiFi Networks Deauth Attack!
 
 
+<img width="720" height="1261" alt="WhatsApp Image 2026-05-26 at 11 57 25 PM" src="https://github.com/user-attachments/assets/a42ddfd5-ee1d-4dea-b255-20960f1c2248" />
 
 
 ---
